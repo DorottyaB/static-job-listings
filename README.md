@@ -7,7 +7,6 @@ This is a solution to the [Job listings with filtering challenge on Frontend Men
 - React
 - React Hooks
 - Mobile-first workflow
-- CSS custom properties
 - Flexbox
 - CSS Grid
 
@@ -26,7 +25,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/DorottyaB/static-job-listings.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://static-job-listings-rho.vercel.app/](https://static-job-listings-rho.vercel.app/)
 
 ## Author
 
