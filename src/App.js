@@ -14,7 +14,7 @@ function App() {
           <picture>
             <source media='(max-width: 768px)' srcSet={`${bgMobile} 768w`} sizes='768px' />
             <source srcSet={`${bgDesktop} 1280w`} sizes='1280px' />
-            <img width='100%' height='160px' className='header-img' src={bgDesktop} alt='' />
+            <img className='header-img' src={bgDesktop} alt='' />
           </picture>
         </header>
         <SearchBar />

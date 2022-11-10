@@ -18,7 +18,7 @@ const Card = ({
   return (
     <div className={`card ${isFeatured ? 'border' : ''}`}>
       <div className='logo-container'>
-        <img width='100%' height='auto' src={img} alt='Company logo' />
+        <img src={img} alt='Company logo' />
       </div>
       <div className='card-body'>
         <div className='card-header'>

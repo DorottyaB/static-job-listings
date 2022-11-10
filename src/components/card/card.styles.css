@@ -18,6 +18,11 @@
   width: 50px;
 }
 
+.logo-container img {
+  width: 100%;
+  height: auto;
+}
+
 .card-body {
   border-bottom: 1px solid hsl(180, 14%, 20%);
   display: flex;
