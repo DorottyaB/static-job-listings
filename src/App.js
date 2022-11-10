@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import bgMobile from './assets/bg-header-mobile.svg';
+import bgDesktop from './assets/bg-header-desktop.svg';
+import QueryContextProvider from './contexts/query.context';
+import CardList from './components/card-list/CardList.component';
+import SearchBar from './components/search-bar/SearchBar.component';
+import Footer from './components/footer/Footer.component';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <QueryContextProvider>
+      <div className='App'>
+        <header>
+          <picture>
+            <source media='(max-width: 768px)' srcSet={`${bgMobile} 768w`} sizes='768px' />
+            <source srcSet={`${bgDesktop} 1280w`} sizes='1280px' />
+            <img width='100%' height='160px' className='header-img' src={bgDesktop} alt='' />
+          </picture>
+        </header>
+        <SearchBar />
+        <CardList />
+        <Footer />
+      </div>
+    </QueryContextProvider>
   );
 }
 

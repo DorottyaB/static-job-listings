@@ -1,0 +1,19 @@
+.card-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 60px 20px;
+  grid-area: 4 / 1 / 5 / -1;
+}
+
+@media screen and (min-width: 768px) {
+  .card-list-container {
+    gap: 25px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .card-list-container {
+    margin: 70px 160px;
+  }
+}
