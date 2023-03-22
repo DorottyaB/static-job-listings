@@ -25,7 +25,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/DorottyaB/static-job-listings.git)
-- Live Site URL: [https://static-job-listings-rho.vercel.app/](https://static-job-listings-rho.vercel.app/)
+- Live Site URL: [static-job-listings-dorottyab.vercel.app/](https://static-job-listings-dorottyab.vercel.app/)
 
 ## Author
 
